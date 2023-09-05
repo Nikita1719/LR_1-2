@@ -1,0 +1,7 @@
+﻿var a:integer; i:integer;
+begin
+  write('Введите число: ');
+  readln(a);
+  i := (a mod 10);
+  Write('Последнее число = ',i);
+end.
